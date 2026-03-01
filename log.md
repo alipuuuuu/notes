@@ -10,6 +10,6 @@ python manage.py runserver
 
 在127.0.0.1:8000检查网站
 
-## 二
+## 二w
 
 
