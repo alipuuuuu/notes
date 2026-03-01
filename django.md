@@ -1,18 +1,3 @@
-
-
-- [Writing your first Django app, part 1](https://docs.djangoproject.com/en/6.0/intro/tutorial01/#)
-
-
-
-    - [Creating a project](https://docs.djangoproject.com/en/6.0/intro/tutorial01/#creating-a-project)
-
-    - [The development server](https://docs.djangoproject.com/en/6.0/intro/tutorial01/#the-development-server)
-
-    - [Creating the Polls app](https://docs.djangoproject.com/en/6.0/intro/tutorial01/#creating-the-polls-app)
-
-    - [Write your first view](https://docs.djangoproject.com/en/6.0/intro/tutorial01/#write-your-first-view)
-
-
 ## makemigration和migrate做了什么？
 makemigration的作用是将python中的模型写下的新的schema转成一份migration文件，作为一个版本记录，可以用于回退等等的操作，此时还是一份python文件；
 migrate的作用是将migration文件转成数据库可以执行SQL语言，然后交给数据库执行；
